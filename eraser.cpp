@@ -93,9 +93,9 @@ int main(int argc, char* argv[]){
         //write with content
         for(long long j=0;j<(sizeOfFile/buffer_size);j+=buffer_size){
             //delete the old content and alloc new content
-            delete[] content;
+            //delete[] content;
             content = new char[buffer_size];
-            setContent(content, buffer_size);
+            //setContent(content, buffer_size);
 
             fileOut.write(content, buffer_size);
             // IF I SHOULD DELETE THE PLUS ONE?
