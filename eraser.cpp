@@ -110,7 +110,7 @@ int main(int argc, char* argv[]){
 
     //clean the file
     //fileOut.open(fileName);
-    fileOut.close();
+    //fileOut.close();
 
     //clean the mem
     delete[] content;
