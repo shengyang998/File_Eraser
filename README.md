@@ -1,4 +1,4 @@
-#File_Eraser
+# File_Eraser
 Erase a given file with pseudo random data.
 ## Build
 1. In terminal run:
